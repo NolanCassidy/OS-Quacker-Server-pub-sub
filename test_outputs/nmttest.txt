@@ -1,0 +1,35 @@
+Program has began running using:
+1 publishers
+1 subscribers
+1 topics
+1000 max topic entries
+
+pub 0 accept
+pub 0 successful
+pub 0 accept
+pub 0 terminate
+sub 1 accept
+sub 1 accept
+sub 1 topic 0 140
+sub 1 accept
+sub 1 terminate
+
+topic 0 pub connect
+topic 0 topic 0 140
+topic 0 end
+topic 0 terminate
+topic 1 sub connect
+topic 1 sub topic 0
+topic 1 successful
+
+===================================================
+sub 1
+pub 0
+timestamp 120
+topic 19321 -1
+===================================================
+
+topic 1 end
+topic 1 terminate
+
+Program successfully finished running.

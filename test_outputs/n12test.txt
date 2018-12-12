@@ -1,0 +1,107 @@
+Program has began running using:
+10 publishers
+1 subscribers
+2 topics
+1000 max topic entries
+
+pub 0 accept
+pub 0 successful
+pub 0 accept
+pub 0 terminate
+pub 1 accept
+pub 1 successful
+pub 1 accept
+pub 1 terminate
+pub 2 accept
+pub 2 successful
+pub 2 accept
+pub 2 terminate
+pub 3 accept
+pub 3 successful
+pub 3 accept
+pub 3 terminate
+pub 4 accept
+pub 4 successful
+pub 4 accept
+pub 4 terminate
+pub 5 accept
+pub 5 successful
+pub 5 accept
+pub 5 terminate
+pub 9 accept
+pub 9 successful
+pub 9 accept
+pub 9 terminate
+pub 8 accept
+pub 8 successful
+pub 8 accept
+pub 8 terminate
+pub 6 accept
+pub 6 successful
+pub 6 accept
+pub 6 terminate
+pub 7 accept
+pub 7 successful
+pub 7 accept
+pub 7 terminate
+sub 10 accept
+sub 10 accept
+sub 10 topic 0 140
+sub 10 accept
+sub 10 terminate
+
+topic 0 pub connect
+topic 0 topic 0 140
+topic 1 pub connect
+topic 2 pub connect
+topic 0 end
+topic 1 topic 0 140
+topic 0 terminate
+topic 1 end
+topic 3 pub connect
+topic 2 topic 0 140
+topic 1 terminate
+topic 4 pub connect
+topic 3 topic 0 140
+topic 2 end
+topic 4 topic 0 140
+topic 5 pub connect
+topic 3 end
+topic 2 terminate
+topic 4 end
+topic 5 topic 0 140
+topic 4 terminate
+topic 5 end
+topic 3 terminate
+topic 6 pub connect
+topic 5 terminate
+topic 7 pub connect
+topic 8 pub connect
+topic 6 topic 0 140
+topic 8 topic 0 140
+topic 9 pub connect
+topic 9 topic 0 140
+topic 9 end
+topic 9 terminate
+topic 7 topic 0 140
+topic 6 end
+topic 8 end
+topic 8 terminate
+topic 7 end
+topic 6 terminate
+topic 10 sub connect
+topic 7 terminate
+topic 10 sub topic 0
+topic 10 successful
+
+===================================================
+sub 10
+pub 0
+timestamp 120
+topic 19321 -1
+===================================================
+
+topic 10 end
+topic 10 terminate
+
+Program successfully finished running.
